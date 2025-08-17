@@ -20,7 +20,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Mai\Charite\ShadersForGameDevs\ShadersForGameDevs -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Mai\Charite\ShadersForGameDevs\ShadersForGameDevs" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -32,7 +32,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Mai\Charite\ShadersForGameDevs\ShadersForGameDevs -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Mai\Charite\ShadersForGameDevs\ShadersForGameDevs" />
       <option name="PASS_PARENT_ENVS" value="1" />

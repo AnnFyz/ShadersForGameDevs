@@ -4,6 +4,7 @@ Shader "Unlit/Boilerplate_unlit_shader"
     Properties
     {
         [Toggle]_IsGradientVertical("Is Gradient Vertical", Float) = 0
+        [Toggle]_Reverse("Reverse", Float) = 0
         _ColorA ("ColorA", Color) = (1,1,1,1)
         _ColorB ("ColorB", Color) = (1,1,1,1)
         _ColorStart("Color Start", Range(0,1)) = 0
@@ -26,6 +27,7 @@ Shader "Unlit/Boilerplate_unlit_shader"
             #include "UnityCG.cginc"
 
             float _IsGradientVertical;
+            float _Reverse;
             float4 _ColorA;
             float4 _ColorB;
             float _ColorStart;
@@ -71,8 +73,15 @@ Shader "Unlit/Boilerplate_unlit_shader"
                 // another version with clamped value of i.uv.x
                 //float t = inverseLerp(_ColorStart, _ColorEnd, frac(i.uv.x));
                 float uvDirection = lerp(i.uv.x , i.uv.y, _IsGradientVertical);
-
-                float t = saturate(inverseLerp(_ColorStart, _ColorEnd, uvDirection));
+                float t;
+                if (_Reverse)
+                {
+                   t = saturate(inverseLerp(_ColorEnd, _ColorStart, uvDirection));
+                }
+                else
+                {
+                   t = saturate(inverseLerp(_ColorStart, _ColorEnd, uvDirection));
+                }
                 float4 lerpedColor = lerp(_ColorA, _ColorB, t);
                 return lerpedColor;
             }

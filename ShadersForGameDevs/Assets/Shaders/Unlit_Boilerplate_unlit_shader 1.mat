@@ -12,7 +12,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _ISGRADIENTVERTICAL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -27,9 +28,10 @@ Material:
     m_Floats:
     - _ColorEnd: 1
     - _ColorStart: 0
-    - _IsGradientVertical: 0
+    - _IsGradientVertical: 1
     - _Offest: 0
     - _Offset: -0.58
+    - _Reverse: 0
     - _Scale: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
