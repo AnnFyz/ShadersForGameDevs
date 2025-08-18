@@ -29,13 +29,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorEnd: 1
-    - _ColorStart: 0.181
-    - _Frequence: 4.21
+    - _ColorEnd: 0.511
+    - _ColorStart: 0.044
+    - _Frequence: 5.7
     - _IsGradientVertical: 0
     - _Reverse: 0
-    - _WaveAmplitude: 0.00137
-    - _WaveSpeed: 0.236
+    - _WaveAmplitude: 0.0022
+    - _WaveSpeed: 0.324
     m_Colors:
     - _ColorA: {r: 0.130162, g: 0.272276, b: 0.7075472, a: 1}
     - _ColorB: {r: 0.77345145, g: 0.78691596, b: 0.8584906, a: 1}

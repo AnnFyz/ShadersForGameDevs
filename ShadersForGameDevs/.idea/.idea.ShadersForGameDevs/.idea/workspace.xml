@@ -7,7 +7,7 @@
     <list default="true" id="35f10c59-cf86-4594-8a00-72a4df1d3a3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShadersForGameDevs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShadersForGameDevs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShaderScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ShaderScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_vertexOffset.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_vertexOffset.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader_vertexOffset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader_vertexOffset.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +17,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_texture.shader" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="31Qfzd1EOO4WbKua4PntaBREpuE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +33,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,7 +107,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755461482584</updated>
-      <workItem from="1755461485688" duration="6637000" />
+      <workItem from="1755461485688" duration="12047000" />
+      <workItem from="1755541946482" duration="2107000" />
     </task>
     <servers />
   </component>
