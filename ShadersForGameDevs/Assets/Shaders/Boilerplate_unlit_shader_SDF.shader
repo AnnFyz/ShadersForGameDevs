@@ -1,4 +1,4 @@
-Shader "Unlit/Boilerplate_unlit_shader"
+Shader "Unlit/Boilerplate_unlit_shader_SDF"
 {
     Properties // input data
     {
@@ -8,10 +8,14 @@ Shader "Unlit/Boilerplate_unlit_shader"
     {
         Tags
         {
-            "RenderType"="Opaque"
+            "RenderType"="Transparent"
+            "Queue"="Transparent"
         }
         Pass
         {
+            ZWrite Off
+            Blend SrcAlpha OneMinusSrcAlpha //Alpha Blending
+            
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -42,15 +46,20 @@ Shader "Unlit/Boilerplate_unlit_shader"
             {
                 Interpolators o;
                 o.vertex = UnityObjectToClipPos(v.vertex); // local space to clip space
-                o.uv = TRANSFORM_TEX(v.uv0, _MainTex);
+                o.uv = v.uv0;
                 return o;
             }
 
             fixed4 frag(Interpolators i) : SV_Target
             {
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
-                return col;
+                float2 coord = i.uv;
+                coord.x *= 8; // for making unit coordinate space
+
+                float2 pointOnLineSegment = float2(clamp(coord.x, 0.5, 7.5), 0.5);
+                float sdf = distance(coord, pointOnLineSegment);
+                float mask = step(0.5, sdf);
+                clip(-mask);
+                return float4(sdf.xxx, 1 );
             }
             ENDCG
         }

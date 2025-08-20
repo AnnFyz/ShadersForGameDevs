@@ -7,7 +7,7 @@
     <list default="true" id="35f10c59-cf86-4594-8a00-72a4df1d3a3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShadersForGameDevs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShadersForGameDevs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShaderScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ShaderScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader_vertexOffset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader_vertexOffset.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_SDF.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_texture.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -108,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755461482584</updated>
       <workItem from="1755461485688" duration="12047000" />
-      <workItem from="1755541946482" duration="2107000" />
+      <workItem from="1755541946482" duration="18802000" />
     </task>
     <servers />
   </component>
