@@ -1,24 +1,3 @@
-Shader "Unlit/Boilerplate_unlit_shader_lighting"
-{
-    Properties // input data
-    {
-       [NoScaleOffset]  _MainTex ("Texture", 2D) = "white" {}
-        _Gloss("Gloss", Range(0,1)) = 1
-        _Color("Color", Color) = (0, 0, 0, 1)
-        
-    }
-    SubShader
-    {
-        Tags
-        {
-            "RenderType"="Opaque"
-        }
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
             #include "AutoLight.cginc"
@@ -73,7 +52,3 @@ Shader "Unlit/Boilerplate_unlit_shader_lighting"
                 specularLight *= _LightColor0.xyz;
                 return float4(specularLight + diffuseLight * _Color,1);
             }
-            ENDCG
-        }
-    }
-}

@@ -71,7 +71,10 @@ Shader "Unlit/Boilerplate_unlit_shader_lighting"
                 float specularExponent = exp2(_Gloss *11) +1;
                 specularLight = pow(specularLight, specularExponent) * _Gloss;
                 specularLight *= _LightColor0.xyz;
-                return float4(specularLight + diffuseLight * _Color,1);
+                float fresnel = (1 - dot(N, V));
+                float3 flash = cos(_Time.y *4)*0.5+0.5;
+                fresnel *= flash;
+                return float4(specularLight + diffuseLight * _Color + fresnel,1);
             }
             ENDCG
         }
