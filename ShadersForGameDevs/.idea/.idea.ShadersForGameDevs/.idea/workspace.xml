@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35f10c59-cf86-4594-8a00-72a4df1d3a3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShadersForGameDevs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShadersForGameDevs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShaderScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ShaderScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_lighting.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_lighting.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader 4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader_vertexOffset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit_Boilerplate_unlit_shader_vertexOffset.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_multipleLights.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_multipleLights.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +21,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_lighting.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Boilerplate_unlit_shader_texture.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/FGLighting_shader.cginc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@b1fa9fba9fd6/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@39bda2df468a/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -115,12 +115,15 @@
       <workItem from="1755461485688" duration="12047000" />
       <workItem from="1755541946482" duration="24726000" />
       <workItem from="1755788899368" duration="427000" />
+      <workItem from="1755969727335" duration="17000" />
+      <workItem from="1756026898235" duration="2680000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
